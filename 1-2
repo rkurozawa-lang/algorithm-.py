@@ -1,0 +1,9 @@
+S = input()
+N = int(input())
+P = list(input().split())
+eat = ''
+
+for i in P:
+    eat += ' '
+    eat += ('a' * int(i))
+print(S + eat)
